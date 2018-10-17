@@ -16,6 +16,8 @@ h2, h3 {
 p, ul {
 font-family: 'VT323', monospace;
 color: #80FF80;
+list-style: none;
+display: block;
 }
 
 a {
@@ -42,15 +44,14 @@ a:hover {
   object-fit: contain;
   width: 150px;
 }
+.div {
+  display: block;
+}
 
 .socialmediabutton {
   font-size: 35px;
   color: #3527B2;
   padding: 15px;
-}
-
-.div {
-  display: block;
 }
 
 .card {
@@ -68,6 +69,29 @@ a:hover {
 .list-inline > li {
   display: inline-block;
   padding-left: 0px 20px;
+}
+
+#sidebar {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  width: 80px;
+  box-shadow: 1px 1px 1px 1px #000000;
+  }
+
+.sidebar-btn {
+  list-style: none;
+  display: list-item;
+  font-size: 30px;
+  color: #3527B2;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 40px;
+  padding-left: 0px;
 }
 
 @media (max-width: 960px) {
